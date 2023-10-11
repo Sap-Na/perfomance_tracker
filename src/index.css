@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,46 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.highcharts-tooltip-box{
+  display: none;
+}
+.tool-icons svg{
+  color: white;
+}
+.tool-icons svg path{
+  stroke: white;
+}
+.tool-icons{
+  position: relative;
+}
+.tool-icons .arrow-icon{
+  position: absolute;
+  bottom: -19px;
+  left: -10px;
+  color: #00dd82;
+  font-size: 20px;
+}
+.arrow-icon-second{
+  position: absolute;
+  bottom: -14px;
+  color: gray;
+  font-size: 20px;
+  left: 45%;
+}
+.chart-box>div>div{
+  overflow: unset !important;
+}
+.chart-box>div{
+  overflow: unset !important;
+}
+.upper-toolbox{
+  position: absolute;
+    bottom: 50px;
+    background: gray;
+    color: white;
+    padding: 10px;
+    width: 175px;
+    border-radius: 10px;
+    left: 0px;
 }
