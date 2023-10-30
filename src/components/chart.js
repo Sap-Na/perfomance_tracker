@@ -101,13 +101,7 @@ export const Chart = () => {
               over.video && data.type === 'video'
             )
             let tooltipDataCopy = [
-              {
-                  "type": "title",
-                  "title": "Circle",
-                  "desc": "3 in 1 Portable Wireless Charging Station for iPhone",
-                  "date": "Jun-10-2023",
-                  "price": "20.43"
-              }
+             
           ]
             if (textData.length > 0) {
               tooltipDataCopy = textData
@@ -168,7 +162,12 @@ export const Chart = () => {
                   <AiFillCaretDown className="arrow-icon" />
                 </div>
 
-                {tooltipDataCopy.length > 0 && <div className="upper-toolbox"> {tooltipDataCopy.map((i) => <div><p className="text-start text-[#00dd82] font-bold mb-1">{i.title}</p><p className="text-start text-[#00dd82] font-bold mb-1">{i.date}</p><p className="text-start text-[#00dd82] font-bold mb-1 break-normal">{i.desc}</p></div>)}  <AiFillCaretDown className="arrow-icon-second" /> </div>}
+                {tooltipDataCopy.length > 0 && <div className="upper-toolbox"> {tooltipDataCopy.map((i) => 
+                <div>
+                  <p className="text-start text-[#00dd82] font-bold mb-1">{i.title}</p>
+                <p className="text-start text-[#00dd82] font-bold mb-1">{i.date}</p>
+                <p className="text-start text-[#00dd82] font-bold mb-1 break-all">{i.desc}</p>
+                </div>)}  <AiFillCaretDown className="arrow-icon-second" /> </div>}
 
 
               </>

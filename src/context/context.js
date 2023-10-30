@@ -28,13 +28,13 @@ export function Context({ children }) {
       2008
     ]
   ]);
-  const[tooltipData,setTooltipData]=useState( [{ type: "text", title: "Title Change", desc: "2 in 1 Portable Wireless Charging Station for iPhone", date: "Jun-10-2023", price: '20.43' },
-  { type: "title", title: "Circle", desc: "3 in 1 Portable Wireless Charging Station for iPhones", date: "Dec-12-2022", price: '22.43' },
-  { type: "gallery", title: "Gallery", desc: "3 in 1 Portable Wireless Charging Station for iPhone", date: "Jul-10-2023", price: '29.43' },
-  { type: "copy", title: "Copy", desc: "3 in 1 Portable Wireless Charging Station for iPhone", date: "Aug-10-2023", price: '50.43' },
-  { type: "menu", title: "Menu Humburger", desc: "3 in 1 Portable Wireless Charging Station for iPhone", date: "Feb-10-2023", price: '25.43' },
-  { type: "file", title: "File", desc: "3 in 1 Portable Wireless Charging Station for iPhone", date: "Sep-12-2023", price: '19.43' },
-  { type: "video", title: "Video", desc: "2 in 1 Portable Wireless Charging Station for iPhone", date: "Oct-10-2023", price: '20.43' }
+  const[tooltipData,setTooltipData]=useState( [{ type: "text", title: "Title Change", desc: "2 in 1 Portable Wireless", date: "Jun-10-2023", price: '20.43' },
+  { type: "title", title: "Circle", desc: "3 in 1 Portable Wireless", date: "Dec-12-2022", price: '22.43' },
+  { type: "gallery", title: "Gallery", desc: "3 in 1 Portable Wireless", date: "Jul-10-2023", price: '29.43' },
+  { type: "copy", title: "Copy", desc: "3 in 1 Portable Wireless ", date: "Aug-10-2023", price: '50.43' },
+  { type: "menu", title: "Menu Humburger", desc: "3 in 1 Portable ", date: "Feb-10-2023", price: '25.43' },
+  { type: "file", title: "File", desc: "3 in 1 Portable Wireless", date: "Sep-12-2023", price: '19.43' },
+  { type: "video", title: "Video", desc: "2 in 1 Portable Wireless", date: "Oct-10-2023", price: '20.43' }
   ])
 
   const [chart, setChart] = useState(null);
